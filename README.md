@@ -1,6 +1,6 @@
 ### Hi, I'm Roman 👋
 
-I'm Roman Danyliuk a General QA Engineer with more than 10 years of experience testing. Experienced both in Manual and Automation technologies.
+I'm Roman Danyliuk a General QA Engineer with more than 10 years of experience in testing. Experienced both in Manual and Automation Testing.
 
 :mailbox: Reach me out!
 
