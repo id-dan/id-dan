@@ -1,0 +1,22 @@
+; Cmd = Ctrl (імітація Cmd на Win)
+LCtrl::LWin
+LWin::LCtrl
+
+; Cmd + C / Cmd + V / Cmd + X / Cmd + Z
+LWin & C::Send, ^c
+LWin & V::Send, ^v
+LWin & X::Send, ^x
+LWin & Z::Send, ^z
+
+; Cmd + Tab = Alt + Tab
+LWin & Tab::Send, !{Tab}
+
+; Cmd + Space = Перемикання мови
+LWin & Space::Send, ^{Space}
+
+; Opt + Left/Right = Ctrl + Left/Right (перехід між словами)
+LAlt & Left::Send, ^{Left}
+LAlt & Right::Send, ^{Right}
+
+; Cmd + Shift + 3 = Скриншот
+LWin & Shift & 3::Send, #+s
